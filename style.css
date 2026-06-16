@@ -1,0 +1,29 @@
+html, body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #191919;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    
+}
+
+header {
+    max-width: 1440px;
+    min-height: 120px;
+}
+
+nav {
+    
+}
+
+.main-image {
+    border-radius: 12px;
+    width: 650px;
+    height: 873px;
+}
