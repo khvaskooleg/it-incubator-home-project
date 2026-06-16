@@ -10,10 +10,14 @@ ul {
 }
 
 li {
-    
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
 }
 
 header {
+    display: flex;
+    padding: 26px 0;
     max-width: 1440px;
     min-height: 120px;
 }
