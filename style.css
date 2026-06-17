@@ -1,39 +1,52 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+    padding: 0px;               /*сброс стилей*/
+    margin: 0px;                    /*сброс стилей*/
+    box-sizing: border-box;         /*сброс стилей*/
 }
 
 html, body {
     font-family: 'DM Sans', sans-serif;
     background-color: #191919;
     color: #fff;
+    max-width: 1440px;
 }
 
 ul {
-    list-style: none;
-    display: flex;
-}
-
-li {
-    display: flex;
-    gap: 40px;
-    justify-content: space-around;
+    list-style: none;               /*сброс стилей*/
 }
 
 header {
     display: flex;
     padding: 26px 0;
-    max-width: 1440px;
     min-height: 120px;
 }
 
 nav {
-    padding: 20px;
+
+}
+
+.logo-image {
+    margin: 17px 0 17px 70; 
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+}
+
+.menu-item {
+    
+}
+
+.menu-link {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 159%;
 }
 
 .main-image {
-    border-radius: 12px;
+    border-radius: 12px;    /*скругление углов картинки в секции*/
     width: 650px;
     height: 873px;
 }
