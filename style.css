@@ -63,17 +63,42 @@ header {
 }
 
 /* =================== Стили для 1-ой секции =============================== */
+.main-section {
+    padding: 20px 0;
+}
 
 .main-text {
     font-weight: 400;
     font-size: 70px;
     line-height: 126%;
     letter-spacing: 0.05em;
+    padding-bottom: 90px;
 }
 
 .main-wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     gap: 60px;
+}
+
+.main {
+    padding: 314px 64px 130px 0;
+}
+
+.main-span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    margin-bottom: 16px;
+}
+
+.main-listen {
+    padding-left: 20px;
+}
+
+.main-items {
+    display: flex;
+    justify-content: flex-start; 
+    gap: 17px;
 }
