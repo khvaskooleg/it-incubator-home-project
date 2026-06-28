@@ -123,14 +123,19 @@ header {
     letter-spacing: 0.05em;
 }
 
-.view-button {
+.view-button.episodes {
     margin: 24px;
+}
+
+.view-button {
+    padding: 12px 15px 12px 20px;
+    /* margin: 24px; */
     font-weight: 400;
     font-size: 17px;
     line-height: 159%;
     color: #fff;
-    width: 178px;
-    min-height: 51px;
+    /* width: 178px; */
+    max-height: 51px;
     border-radius: 6px;
     background-color: #118da8;
     border-style: none;
@@ -193,17 +198,6 @@ header {
     flex-direction: column;
     gap: 60px;
     margin-bottom: 160px;
-}
-
-.card-button {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;
-    color: #fff;
-    background-color: #118da8;
-    border-radius: 6px;
-    border-style: none;
-    padding: 12px 15px 12px 20px;
 }
 
 /* =================== Стили для 3-ой секции =============================== */
