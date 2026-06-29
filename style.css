@@ -56,13 +56,15 @@ header {
     line-height: 159%;
 }
 
+/* =================== Стили для 1-ой секции =============================== */
+
 .main-image {
     border-radius: 12px;    /*скругление углов картинки в секции*/
-    width: 650px;
-    height: 873px;
+    width: 100%;
+    max-width: 650px;
+    min-height: 873px;
 }
 
-/* =================== Стили для 1-ой секции =============================== */
 .main-section {
     padding: 20px 0;
 }
@@ -201,3 +203,59 @@ header {
 }
 
 /* =================== Стили для 3-ой секции =============================== */
+
+.info-wrapper {
+    margin: 100px 0;
+    display: flex;
+    gap: 60px;
+}
+
+.info-bio-button {
+    width: 100%;
+    max-width: 112px;
+    min-height: 112px;
+    margin-bottom: 20px;
+}
+
+.info-bio-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* min-width: 590px;
+    max-height: 448px; */
+}
+
+.info-bio-span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #118da8;
+}
+
+.info-bio-name {
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 122%;
+    letter-spacing: 0.04em;
+    margin-bottom: 28px;
+}
+
+.info-bio-text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.info-bio-text-1 {
+    margin-bottom: 33px;
+}
+
+.info-image {
+    border-radius: 12px;
+    width: 100%;
+    min-height: 743px;
+    max-width: 650px;
+}
+
+
