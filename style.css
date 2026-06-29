@@ -258,4 +258,74 @@ header {
     max-width: 650px;
 }
 
+/* =================== Стили для 4-ой секции =============================== */
+
+.form-section {
+    padding: 100px 0;
+    display: flex;
+}
+
+.form-article {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    border-radius: 32px;
+    width: 100%;
+    max-width: 1300px;
+    min-height: 387px;
+    background: #000;
+}
+
+.form-wrapper-name {
+    
+}
+
+.form-span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #118da8;
+}
+
+.form-name {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 110%;
+    letter-spacing: 0.04em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-button {
+    padding: 12px 15px 12px 20px;
+    /* margin: 24px; */
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 192%;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    /* width: 178px; */
+    max-height: 51px;
+    max-width: 87px;
+    border-radius: 6px;
+    background-color: #118da8;
+    border-style: none;
+}
+
+input {
+    border: 1px solid #191919;
+    border-radius: 6px;
+    width: 522px;
+    height: 82px;
+    background: #191919;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 26px 20px;
+}
 
